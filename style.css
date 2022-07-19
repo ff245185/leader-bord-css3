@@ -1,8 +1,138 @@
+/* font design  */
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&family=Poppins&display=swap');
+
+
+
 .players {
     display: grid;
-    grid-template-columns: repeat(1fr, 1fr, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
 
 
 }
 
-.player {}
+/* common stylees */
+body {
+    font-family: 'Mingzat', sans-serif;
+    background-color: #e5e5e5;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.title {
+    height: 36px;
+    width: 125px;
+    padding: 30px;
+    color: #562EFF;
+    font-size: 20px;
+    margin-top: 20px;
+
+
+}
+
+.fast {
+    background: #FFFFFF;
+    width: 870px;
+    height: 980px;
+    left: 220px;
+    top: 110px;
+    border-radius: 4px;
+    margin-top: 21px;
+
+
+}
+
+hr {
+    border: 1px solid #934b4b;
+    margin: 25px;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.jony {
+    margin: 15px;
+}
+
+.youtube .fb img {
+    width: 166px;
+    height: 166px;
+}
+
+.blog-info {
+    margin-left: 13px;
+}
+
+.blog-titles {
+    font-size: 16px;
+}
+
+.prag {
+    color: #9F9F9F;
+    font-size: 12px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.youtube {
+    display: flex;
+}
+
+.prag a {
+    color: #810be9;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 29px;
+}
+
+.course .course-banner img {
+    width: 200px;
+    height: 98px;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: rgb(221, 221, 15);
+}
+
+.fa-star.emtey {
+    color: #b3a6a6;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.course {
+    display:
+
+}
